@@ -9,6 +9,8 @@ Clone this repository to a Hadoop node and build the egg:
 ```bash
 $ bash scripts/create-egg.sh
 ```
+
+## Run
 Now just run the code:
 ```bash
 $ bash scripts/spark-submit.sh
