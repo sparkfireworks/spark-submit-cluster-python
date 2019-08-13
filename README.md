@@ -4,7 +4,18 @@
 
 Showcase how to create a Python Spark application that can be launch in both client and cluster mode.
 
+## Deploy
+Clone this repository to a Hadoop node and build the egg:
+```bash
+$ bash scripts/create-egg.sh
+```
+Now just run the code:
+```bash
+$ bash scripts/spark-submit.sh
+```
+
 ## Authors
+*   [Gonçalo Castro](https://github.com/GoncaloCCastro)
 *   [Ricardo Miranda](https://github.com/RicardoMiranda)
 
 ## License
