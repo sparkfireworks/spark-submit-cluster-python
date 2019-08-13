@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_PATH=$(readlink -f $0)
-CWD=S(dirname $SCRIPT_PATH)
+CWD=$(dirname $SCRIPT_PATH)
 
 name=test_cluster_mode
 app_path=$CWD/../app/__init__.py
