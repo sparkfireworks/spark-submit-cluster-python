@@ -8,7 +8,7 @@ app_path=$CWD/../app/__init__.py
 master_mode=yarn
 deploy_mode=cluster
 spark_queue=spark
-py_files=$CWD/WD/spark-submit-cluster-python
+py_files=$CWD/../dist/spark_submit_cluster_python-0.1.0-py2.7.egg
 
 spark-submit \
   --name $name \
