@@ -12,7 +12,7 @@ In the code it is necessary to import the package (app/__init__.py):
 import sys
 sys.path.insert(0, "spark-submit-cluster-python")
 ```
-The spark-submit must have the option py-files with the absolute path to the egg package ([spark-submit.sh](scripts/spark-submit.sh)):
+The spark-submit must have the option `--py-files` with the absolute path to the egg package ([spark-submit.sh](scripts/spark-submit.sh)):
 ```bash
 name=test_cluster_mode
 app_path=$CWD/../app/__init__.py
