@@ -5,12 +5,12 @@
 Showcase how to create a Python Spark application that can be launch in both client and cluster mode.
 
 ## How it works
-To run Spark in cluster mode it is necessary to send the Spark application code in the spark-submit command. To do so we start by creating an egg file containing the code as described in the [setup.py](setup.py) file (packages property).
+To run Spark in cluster mode it is necessary to send the Spark application code in the `spark-submit` command. To do so we start by creating an egg file containing the code as described in the [setup.py](setup.py) file (packages property).
 
-In the code it is necessary to import the package (app/__init__.py):
+In the code it is necessary to import the package in your code's entry point ([app/__init__.py](app/__init__.py)):
 ```Python
 import sys
-sys.path.insert(0, "spark-submit-cluster-python")
+sys.path.insert(0, "spark-submit-cluster-python-0.1.0-py2.7")
 ```
 The spark-submit must have the option `--py-files` with the absolute path to the egg package ([spark-submit.sh](scripts/spark-submit.sh)):
 ```bash
