@@ -27,7 +27,7 @@ spark-submit \
   --deploy-mode $deploy_mode \
   --queue $spark_queue \
   --py-files $py_files \
-  $app_pat
+  $app_path
 ```
 
 ## Deploy
