@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, "spark-submit-cluster-python")
+sys.path.insert(0, "spark-submit-cluster-python-0.1.0-py2.7")
 
 from pyspark.sql import sparkSession
 
