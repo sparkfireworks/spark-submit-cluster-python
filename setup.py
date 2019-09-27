@@ -7,6 +7,6 @@ setup(
     author='Ricardo Miranda',
     author_email='mail@ricardoMiranda.com',
     url='https://github.com/ricardomiranda/spark-submit-cluster-python',
-    packages=['app', 'app.computations'],
+    packages=['spark_cluster_mode', 'spark_cluster_mode.computations'],
 )
 

@@ -10,6 +10,6 @@ def main(args=None):
 
 
 if __name__ == "__main__":
-    from app.computations import count_dataframe
+    from spark_cluster_mode.computations import count_dataframe
 
     main()

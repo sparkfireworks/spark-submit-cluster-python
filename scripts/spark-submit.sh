@@ -4,7 +4,7 @@ SCRIPT_PATH=$(readlink -f $0)
 CWD=$(dirname $SCRIPT_PATH)
 
 name=test_cluster_mode
-app_path=$CWD/../app/__init__.py
+app_path=$CWD/../spark_cluster_mode/__init__.py
 master_mode=yarn
 deploy_mode=cluster
 spark_queue=spark
