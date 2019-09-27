@@ -42,9 +42,18 @@ Now just run the code:
 $ bash scripts/spark-submit.sh
 ```
 
+## See the logs
+To inpect the Spark application logs do:
+```bash
+yarn logs --applicationId application_XXXXXXXXXXXX_XXXX
+```
+
 ## Authors
 *   [Gonçalo Castro](https://github.com/GoncaloCCastro)
+*   [Gonçalo Valente](https://github.com/gnvalente92)
+*   [Ricardo Henriques](https://github.com/ricardo-aires)
 *   [Ricardo Miranda](https://github.com/RicardoMiranda)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
